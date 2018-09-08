@@ -1,0 +1,42 @@
+
+.ttt {
+    width: 100%;
+}
+
+// .ttt-btn {
+//     height: 100%;
+//     min-height: 100%;
+// }
+
+@include media-breakpoint-up(md) {
+    .ttt {
+        width: 450px;
+    }
+
+    .ttt-btn {
+        height: 145px;
+    }
+}
+
+$ttt_border_size: 3px;
+
+table .ttt-row-1 {
+    border-bottom: $ttt_border_size solid black;
+}
+
+table .ttt-row-2 {
+    border-bottom: $ttt_border_size solid black;
+}
+
+table .ttt-col-1 {
+    border-right: $ttt_border_size solid black;
+}
+
+table .ttt-col-2 {
+    border-right: $ttt_border_size solid black;
+}
+
+// don't shrink below this
+body {
+    min-width: 350px;
+}

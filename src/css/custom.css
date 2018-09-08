@@ -8556,4 +8556,37 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.ttt {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .ttt {
+    width: 450px;
+  }
+  .ttt-btn {
+    height: 145px;
+  }
+}
+
+table .ttt-row-1 {
+  border-bottom: 3px solid black;
+}
+
+table .ttt-row-2 {
+  border-bottom: 3px solid black;
+}
+
+table .ttt-col-1 {
+  border-right: 3px solid black;
+}
+
+table .ttt-col-2 {
+  border-right: 3px solid black;
+}
+
+body {
+  min-width: 350px;
+}
+
 /*# sourceMappingURL=maps/custom.css.map */
